@@ -731,6 +731,366 @@
           <url/>
         </geoip>
         <aliases>
+          <alias uuid="fad843be-e498-430c-a573-e4225b539a7d">
+            <enabled>1</enabled>
+            <name>sbc1</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content></content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="d169ec23-ab9c-47ae-8e8a-3197c890b0ec">
+            <enabled>1</enabled>
+            <name>sbc2</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content></content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="5ebeece6-45da-460e-a2c2-71b4b1687ecc">
+            <enabled>1</enabled>
+            <name>sbc3</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content></content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="b0ca28cb-b3dd-4414-b14f-9096f1389236">
+            <enabled>1</enabled>
+            <name>sbc4</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content></content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="3e496b69-7998-48d2-9c87-b9757ebd1aa5">
+            <enabled>1</enabled>
+            <name>sbc5</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content></content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="96a906c9-98e8-4c51-98f5-a53c2fade81e">
+            <enabled>1</enabled>
+            <name>sbc6</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content></content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="9a0416a5-4ab2-4c50-b298-4782fc58dbb7">
+            <enabled>1</enabled>
+            <name>sbc7</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content></content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="a0611c55-01a7-40f8-b2eb-abac4820d2ab">
+            <enabled>1</enabled>
+            <name>sbc8</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content></content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="3ccb06de-a66a-4aa1-8ff5-9f758e643e4b">
+            <enabled>1</enabled>
+            <name>sbc9</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content></content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="f4ad7654-ede4-43fb-9677-a502f7f273d9">
+            <enabled>1</enabled>
+            <name>sbc10</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content></content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="06609ce6-18aa-47c2-9d35-5e88f044b881">
+            <enabled>1</enabled>
+            <name>sbc11</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content></content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="65252c2d-988c-4b79-8763-0706426b8447">
+            <enabled>1</enabled>
+            <name>sbc12</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content></content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="1f8167ec-625e-49b0-9ac0-49a90746618e">
+            <enabled>1</enabled>
+            <name>sbc13</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content></content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="ceb2fa5c-fff9-4c08-80a7-05b1a1ad3376">
+            <enabled>1</enabled>
+            <name>sbc14</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content></content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="a7ed07ba-5c16-4140-bc0b-2928567c4313">
+            <enabled>1</enabled>
+            <name>sbc15</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content></content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="ef5416ae-301e-4dbb-8869-6ee5bfb9f252">
+            <enabled>1</enabled>
+            <name>sbc16</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content></content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="7569ca6a-df5d-42af-8355-14ea0bc752d3">
+            <enabled>1</enabled>
+            <name>sbc17</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content></content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="5dffb5cd-746e-4c00-8c08-83ac21070541">
+            <enabled>1</enabled>
+            <name>sbc18</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content></content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="3631d96d-833e-413d-87b1-50bfbe206f91">
+            <enabled>1</enabled>
+            <name>sbc19</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content></content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="4f85952e-8401-4d7e-a929-64019b792c84">
+            <enabled>1</enabled>
+            <name>sbc20</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content></content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="a1e840da-6cec-4758-8e62-3f0555528bda">
+            <enabled>1</enabled>
+            <name>sbc21</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content></content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="f13f7087-49de-4376-b8e9-e8b61acc8b24">
+            <enabled>1</enabled>
+            <name>sbc22</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content></content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="0a1ef865-4e5c-4eec-9019-d060e58793c0">
+            <enabled>1</enabled>
+            <name>sbc23</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content></content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="ce9af686-229d-4608-be47-8fa5f8fd563e">
+            <enabled>1</enabled>
+            <name>sbc24</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content></content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="5a85bcd7-ea9e-41c1-a3b5-993285a9f7cc">
+            <enabled>1</enabled>
+            <name>sbc25</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content></content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="930c8688-746e-4b09-a354-cd2361ff996a">
+            <enabled>1</enabled>
+            <name>sbc26</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content></content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="0a0881fb-d694-4021-94bd-9b4f7be484c3">
+            <enabled>1</enabled>
+            <name>sbc27</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content></content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="2cda6365-fe57-458b-9e49-cdb6acc7cae7">
+            <enabled>1</enabled>
+            <name>sbc28</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content></content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="e1e7981a-5020-4e0d-a089-a8b12c17a79e">
+            <enabled>1</enabled>
+            <name>sbc29</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content></content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="88bec93b-e882-41be-aed8-e13e304aece9">
+            <enabled>1</enabled>
+            <name>sbc30</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content></content>
+            <categories/>
+            <description/>
+          </alias>
           <alias uuid="637063a6-909d-4544-b2ac-c883a9ea97e4">
             <enabled>1</enabled>
             <name>InternalSubnet</name>
@@ -739,18 +1099,6 @@
             <counters>0</counters>
             <updatefreq/>
             <content>zzz.zzz.zzz.zzz</content>
-            <description/>
-          </alias>
-          <alias uuid="2abfd131-c021-431e-9896-b89c1c712d3a">
-            <enabled>1</enabled>
-            <name>sbc1</name>
-            <type>host</type>
-            <proto/>
-            <interface/>
-            <counters>0</counters>
-            <updatefreq/>
-            <content>10.31.1.26</content>
-            <categories/>
             <description/>
           </alias>
           <alias uuid="f4063aaa-d06a-402f-9be2-3a64a44b9993">
