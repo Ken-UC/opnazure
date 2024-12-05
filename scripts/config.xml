@@ -232,7 +232,7 @@
     </user>
     <nextuid>2001</nextuid>
     <nextgid>2001</nextgid>
-    <timezone>America/Mexico_City</timezone>
+    <timezone>Europe/Paris</timezone>
     <time-update-interval>300</time-update-interval>
     <timeservers>0.nl.pool.ntp.org</timeservers>
     <webgui>
@@ -430,7 +430,7 @@
       <interface>lan</interface>
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
-      <descr>Allow Firewall Management Windows-VM-Subnet</descr>
+      <descr>Allow Firewall Management Internal-Subnet</descr>
       <direction>in</direction>
       <log>1</log>
       <quick>1</quick>
@@ -456,7 +456,7 @@
       <interface>lan</interface>
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
-      <descr>Allow Windows-VM-Subnet Internet Access</descr>
+      <descr>Allow Internal-Subnet Internet Access</descr>
       <direction>in</direction>
       <log>1</log>
       <quick>1</quick>
@@ -488,6 +488,49 @@
       <destination>
         <any/>
       </destination>
+    </rule>
+    <rule>
+      <associated-rule-id>nat_67517b45e2d7b8.80251589</associated-rule-id>
+      <source>
+        <address>external_sip</address>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>sbc1</address>
+        <port>5001</port>
+      </destination>
+      <descr/>
+      <category/>
+      <created>
+        <username>root@176.159.140.168</username>
+        <time>1733393221.9292</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+      <log>1</log>
+    </rule>
+    <rule>
+      <associated-rule-id>nat_67517b619b2f60.15274927</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>udp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>sbc1</address>
+        <port>10000-10999</port>
+      </destination>
+      <descr/>
+      <category/>
+      <created>
+        <username>root@176.159.140.168</username>
+        <time>1733393249.6357</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
     </rule>
   </filter>
   <rrd>
@@ -698,6 +741,30 @@
             <content>zzz.zzz.zzz.zzz</content>
             <description/>
           </alias>
+          <alias uuid="2abfd131-c021-431e-9896-b89c1c712d3a">
+            <enabled>1</enabled>
+            <name>sbc1</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>10.31.1.26</content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="f4063aaa-d06a-402f-9be2-3a64a44b9993">
+            <enabled>1</enabled>
+            <name>external_sip</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>4.180.100.236</content>
+            <categories/>
+            <description/>
+          </alias>
         </aliases>
       </Alias>
     </Firewall>
@@ -755,7 +822,7 @@
         <destination>
           <any>1</any>
         </destination>
-        <descr>NAT Windows-VM-Subnet</descr>
+        <descr>NAT Internal-VM-Subnet</descr>
         <category/>
         <interface>wan</interface>
         <tag/>
@@ -778,6 +845,66 @@
       </rule>
       <mode>hybrid</mode>
     </outbound>
+    <rule>
+      <protocol>tcp</protocol>
+      <interface>wan</interface>
+      <category/>
+      <ipprotocol>inet</ipprotocol>
+      <descr/>
+      <tag/>
+      <tagged/>
+      <poolopts/>
+      <associated-rule-id>nat_67517b45e2d7b8.80251589</associated-rule-id>
+      <target>sbc1</target>
+      <local-port>5001</local-port>
+      <source>
+        <address>external_sip</address>
+      </source>
+      <destination>
+        <network>(self)</network>
+        <port>5001</port>
+      </destination>
+      <updated>
+        <username>root@176.159.140.168</username>
+        <time>1733393402.3332</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@176.159.140.168</username>
+        <time>1733393221.9292</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule>
+      <protocol>udp</protocol>
+      <interface>wan</interface>
+      <category/>
+      <ipprotocol>inet</ipprotocol>
+      <descr/>
+      <tag/>
+      <tagged/>
+      <poolopts/>
+      <associated-rule-id>nat_67517b619b2f60.15274927</associated-rule-id>
+      <target>sbc1</target>
+      <local-port>10000</local-port>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <network>(self)</network>
+        <port>10000-10999</port>
+      </destination>
+      <updated>
+        <username>root@176.159.140.168</username>
+        <time>1733393249.6357</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@176.159.140.168</username>
+        <time>1733393249.6357</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
   </nat>
   <gateways>
     <gateway_item>
