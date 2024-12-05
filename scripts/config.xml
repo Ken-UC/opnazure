@@ -198,6 +198,14 @@
       <priv>user-shell-access</priv>
       <priv>page-all</priv>
     </group>
+    <group>
+      <name>Alias_admin</name>
+      <description/>
+      <gid>2000</gid>
+      <priv>page-firewall-alias-edit</priv>
+      <priv>page-firewall-rules-edit</priv>
+      <member>2000</member>
+    </group>
     <user>
       <name>root</name>
       <descr>System Administrator</descr>
@@ -206,8 +214,24 @@
       <password>$2b$10$YRVoF4SgskIsrXOvOQjGieB9XqHPRra9R7d80B3BZdbY/j21TwBfS</password>
       <uid>0</uid>
     </user>
-    <nextuid>2000</nextuid>
-    <nextgid>2000</nextgid>
+    <user>
+    <password>$2y$11$AkVxtTCCkuI7BoHoykRALOLdYwkRqagFaMGX9O0U0wYBBaiquSeGW</password>
+    <scope>user</scope>
+    <name>Kube</name>
+    <descr/>
+    <expires/>
+    <authorizedkeys/>
+    <otp_seed/>
+    <uid>2000</uid>
+    <apikeys>
+      <item>
+        <key>CK5ShBYFWw4a2H3H19N16zbLLAYLjwfcADDohXhDnaPDiFZbkjYO5d+JYSbFKL74m1D1QWwp9OClxjg0</key>
+        <secret>$6$$Xb73n2U1E3cXa5JSLLUpFSD77B3A3ItVEl/McesyJL/RO2QHNmwXMKSvLE2ZzvBt9GXkVNcXBOiA.Qwze2cMU/</secret>
+      </item>
+    </apikeys>
+    </user>
+    <nextuid>2001</nextuid>
+    <nextgid>2001</nextgid>
     <timezone>America/Mexico_City</timezone>
     <time-update-interval>300</time-update-interval>
     <timeservers>0.nl.pool.ntp.org</timeservers>
@@ -411,7 +435,7 @@
       <log>1</log>
       <quick>1</quick>
       <source>
-        <address>WindowsVMSubnet</address>
+        <address>InternalSubnet</address>
       </source>
       <destination>
         <network>lanip</network>
@@ -437,7 +461,7 @@
       <log>1</log>
       <quick>1</quick>
       <source>
-        <address>WindowsVMSubnet</address>
+        <address>InternalSubnet</address>
       </source>
       <destination>
         <any>1</any>
@@ -666,7 +690,7 @@
         <aliases>
           <alias uuid="637063a6-909d-4544-b2ac-c883a9ea97e4">
             <enabled>1</enabled>
-            <name>WindowsVMSubnet</name>
+            <name>InternalSubnet</name>
             <type>network</type>
             <proto/>
             <counters>0</counters>
@@ -726,7 +750,7 @@
       </rule>
       <rule>
         <source>
-          <network>WindowsVMSubnet</network>
+          <network>InternalSubnet</network>
         </source>
         <destination>
           <any>1</any>
